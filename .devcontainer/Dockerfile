@@ -1,7 +1,7 @@
 # Build: sudo docker build -t <project_name> .
 # Run: sudo docker run -v $(pwd):/workspace/project --gpus all -it --rm <project_name>
 
-FROM nvidia/cuda:11.8.0-base-ubuntu22.04
+FROM nvidia/cuda:12.2.2-base-ubuntu22.04
 
 ENV PYTHON_VERSION=3.10
 
